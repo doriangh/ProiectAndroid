@@ -122,6 +122,7 @@ public class GameActivity extends AppCompatActivity {
                 countdown.setVisibility(View.VISIBLE);
                 timerRunning = false;
                 startCountdown.setText("Try Again?");
+                timeLeft = 5000;
             }
         }.start();
 

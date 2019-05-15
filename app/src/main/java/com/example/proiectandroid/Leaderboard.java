@@ -42,7 +42,7 @@ public class Leaderboard extends AppCompatActivity {
 //            int cid = cursor.getInt(cursor.getColumnIndex(myDBContract.Score._ID));
             String name = cursor.getString(cursor.getColumnIndex(myDBContract.Score.COLUMN_NAME));
             String score = cursor.getString(cursor.getColumnIndex(myDBContract.Score.COLUMN_SCORE));
-            buffer.append(i + ". " + name + " " + score + " \n");
+            buffer.append(i + ". " + name + " " + score + "s \n");
             i ++;
 //            buffer.append(cid + ". " + score + " \n");
         }
